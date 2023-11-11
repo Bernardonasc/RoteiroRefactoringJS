@@ -65,6 +65,8 @@ function gerarFaturaStr(fatura, pecas) {
   return faturaStr;
 }
 
+// Nao li o roteiro inteiro antes e acabei fazendo essa parte antes ja
+
 const faturas = JSON.parse(readFileSync('./faturas.json'));
 const pecas = JSON.parse(readFileSync('./pecas.json'));
 const faturaStr = gerarFaturaStr(faturas, pecas);
